@@ -57,6 +57,8 @@ namespace ZooApplication.Controllers
         /// HEADER: 200 (OK)
         /// CONTENT: all animals in the database, including their associated species.
         /// </returns>
+        /// <param name="StartIndex">The starting index for the animal id</param>
+        /// <param name="PerPage">The number of animal records to take</param>
         /// <example>
         /// GET: api/AnimalData/ListAnimals
         /// </example>
